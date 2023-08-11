@@ -57,6 +57,16 @@
           </div>
         </div>
         
+        <div class="scores-container">
+            <div class="score-box">
+              <div class="sign" id="playerSign">❔</div>
+              <p class="score" id="playerScore">Player: 0</p>
+            </div>
+            <div class="score-box">
+              <div class="sign" id="computerSign">❔</div>
+              <p class="score" id="computerScore">Computer: 0</p>
+            </div>
+          </div>
       </main>
 
     <footer class="footer">
@@ -70,7 +80,15 @@
         <a href="https://github.com/kai-ion" target="_blank">
           <i class="fab fa-github"></i
         ></a>
-      </footer>
+    </footer>
+
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
